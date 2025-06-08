@@ -1,0 +1,6 @@
+[submodule "Terra/vendor/spdlog"]
+	path = Terra/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Terra/vendor/GLFW"]
+	path = Terra/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
