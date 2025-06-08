@@ -5,3 +5,6 @@ bin-int/
 
 # Files
 *.user
+GenerateProjects.bat
+premake5.lua
+Terra.sln
