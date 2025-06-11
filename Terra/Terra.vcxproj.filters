@@ -40,6 +40,12 @@
     <ClInclude Include="src\Terra\Events\MouseEvent.h">
       <Filter>Terra\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\Terra\Layer.h">
+      <Filter>Terra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terra\LayerStack.h">
+      <Filter>Terra</Filter>
+    </ClInclude>
     <ClInclude Include="src\Terra\Log.h">
       <Filter>Terra</Filter>
     </ClInclude>
@@ -53,6 +59,12 @@
       <Filter>Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\Terra\Application.cpp">
+      <Filter>Terra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terra\Layer.cpp">
+      <Filter>Terra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terra\LayerStack.cpp">
       <Filter>Terra</Filter>
     </ClCompile>
     <ClCompile Include="src\Terra\Log.cpp">
