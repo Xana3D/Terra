@@ -53,7 +53,7 @@ namespace Terra
 		{
 			return GetCategoryFlags() & category;
 		}
-	protected:
+	public:
 		bool m_Handled = false;
 	};
 
@@ -81,8 +81,12 @@ namespace Terra
 		Event& m_Event;
 	};
 
-	inline std::ostream& operator<<(std::ostream& os, const Event& e)
+	//inline std::ostream& operator<<(std::ostream& os, const Event& e)
+	//{
+	//	return os << e.ToString();
+	//}
+	inline std::string format_as(const Event& e) 
 	{
-		return os << e.ToString();
+		return e.ToString();
 	}
 }

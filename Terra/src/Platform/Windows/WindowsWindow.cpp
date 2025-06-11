@@ -11,7 +11,7 @@ namespace Terra {
 
 	static void GLFWErrorCallback(int error, const char* description)
 	{
-		TA_CORE_ERROR("GLFW Error ({0}) : {1}", error, description);
+		TA_CORE_ERROR("GLFW Error ({0}): {1}", error, description);
 	}
 
 	Window* Window::Create(const WindowProps& props)

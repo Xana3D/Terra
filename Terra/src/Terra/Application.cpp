@@ -22,7 +22,7 @@ namespace Terra {
 
 	void Application::OnEvent(Event& e)
 	{
-		TA_CORE_INFO("{0}", e);
+		TA_CORE_INFO(e.ToString());
 	}
 
 	void Application::Run()

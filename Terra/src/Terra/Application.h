@@ -24,4 +24,3 @@ namespace Terra {
 	Application* CreateApplication();
 
 }
-
