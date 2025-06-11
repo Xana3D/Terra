@@ -77,7 +77,7 @@ namespace Terra {
 			return ss.str();
 		}
 
-		EVENT_CLASS_TYPE(MouseButtonPressedEvent)
+		EVENT_CLASS_TYPE(MouseButtonPressed)
 	};
 
 	class TERRA_API MouseButtonReleasedEvent : public MouseButtonEvent

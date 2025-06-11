@@ -13,7 +13,7 @@ namespace Terra {
 	Application::Application()
 	{
 		m_Window = std::unique_ptr<Window>(Window::Create());
-		m_Window->SetEventCallback(std::bind(&Application::OnEvent, this, std::placeholders::_1));
+		m_Window->SetEventCallback(BIND_EVENT_FN(OnEvent));
 	}
 
 	Application::~Application()
@@ -22,7 +22,7 @@ namespace Terra {
 
 	void Application::OnEvent(Event& e)
 	{
-
+		TA_CORE_INFO("{0}", e);
 	}
 
 	void Application::Run()
